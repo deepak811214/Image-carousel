@@ -22,4 +22,4 @@ const carousel = (ele = "container", width, index = 0) => {
   container.insertAdjacentHTML("afterend", button);
 };
 
-carousel("container", 600, 6);
+carousel("container", 600);
